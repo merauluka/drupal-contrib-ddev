@@ -783,3 +783,5 @@ $config_directories['sync'] = '../config/sync';
 if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
   include $app_root . '/' . $site_path . '/settings.ddev.php';
 }
+
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
